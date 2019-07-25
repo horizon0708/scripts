@@ -1,0 +1,30 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "editor.minimap.enabled": false,
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-f>": false,
+        "<C-h>": false,
+        "<C-k>": false,
+        "<C-a>": false,
+        "<C-x>": false,
+        "<C-v>": false,
+        "<C-c>": false,
+        "<C-y>": false,
+        "<C-n>": false
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "vsnotes.defaultNotePath": "c:\\Users\\James\\Dropbox\\notes",
+    "window.zoomLevel": 0,
+    "[elixir]": {
+        "editor.defaultFormatter": "sammkj.vscode-elixir-formatter"
+    },
+    "files.associations": {
+        "*.svelte": "svelte"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.eol": "\n"
+}
