@@ -3,7 +3,7 @@ __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "${__dir}/fuzzy.sh"
 
 # set base dirs
-SYSTEM_BASE_DIR="/mnt/c"
+
 DEV_DIR="${SYSTEM_BASE_DIR}/dev"
 SCRIPTS_DIR="${DEV_DIR}/scripts"
 PROFILE_DIR="${SCRIPTS_DIR}/profile/main.sh"
