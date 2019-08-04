@@ -1,4 +1,5 @@
-__dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SYSTEM_BASE_DIR="~"
+__dir="$(dirname "$(readlink -f "$0")")"
+
+SYSTEM_BASE_DIR="$HOME"
 
 source "${__dir}/main.sh"

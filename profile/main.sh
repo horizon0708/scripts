@@ -1,5 +1,4 @@
 # import functions
-__dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "${__dir}/fuzzy.sh"
 
 # set base dirs
@@ -9,7 +8,7 @@ SCRIPTS_DIR="${DEV_DIR}/scripts"
 PROFILE_DIR="${SCRIPTS_DIR}/profile/main.sh"
 
 # other imports
-source ~/.current_project 
+# source ~/.current_project 
 
 
 # exports
@@ -20,7 +19,7 @@ export PATH="${SCRIPTS_DIR}/scripts:$PATH"
 alias devdir="cd ${DEV_DIR}"
 
 # fuzzy search (p)ro(j)ects
-function pj(){
+function p(){
     cd "$(__fuzzy_dir_search ${DEV_DIR})"
 }
 
